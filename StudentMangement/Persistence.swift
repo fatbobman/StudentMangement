@@ -14,8 +14,10 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+            let newStudent = Student(context: viewContext)
+            newStudent.name = "test" + String(Int.random(in: 100...500))
+            newStudent.sex = Int32.random(in: 1...2)
+            newStudent.birthday = Date().addingTimeInterval(-Double.random(in: 12...15) * 365 * 24 * 60 * 60)
         }
         do {
             try viewContext.save()

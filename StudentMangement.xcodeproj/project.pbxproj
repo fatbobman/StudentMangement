@@ -13,6 +13,7 @@
 		76DD59C6250212C0005D7E12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DD59C5250212C0005D7E12 /* Preview Assets.xcassets */; };
 		76DD59C8250212C0005D7E12 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD59C7250212C0005D7E12 /* Persistence.swift */; };
 		76DD59CB250212C0005D7E12 /* StudentMangement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76DD59C9250212C0005D7E12 /* StudentMangement.xcdatamodeld */; };
+		76DD59D7250214FD005D7E12 /* StudentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD59D6250214FD005D7E12 /* StudentManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		76DD59C7250212C0005D7E12 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		76DD59CA250212C0005D7E12 /* StudentMangement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentMangement.xcdatamodel; sourceTree = "<group>"; };
 		76DD59CC250212C0005D7E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DD59D6250214FD005D7E12 /* StudentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				76DD59BE250212BF005D7E12 /* StudentMangementApp.swift */,
 				76DD59C0250212BF005D7E12 /* ContentView.swift */,
+				76DD59D6250214FD005D7E12 /* StudentManager.swift */,
 				76DD59C2250212C0005D7E12 /* Assets.xcassets */,
 				76DD59C7250212C0005D7E12 /* Persistence.swift */,
 				76DD59CC250212C0005D7E12 /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76DD59CB250212C0005D7E12 /* StudentMangement.xcdatamodeld in Sources */,
+				76DD59D7250214FD005D7E12 /* StudentManager.swift in Sources */,
 				76DD59C8250212C0005D7E12 /* Persistence.swift in Sources */,
 				76DD59C1250212BF005D7E12 /* ContentView.swift in Sources */,
 				76DD59BF250212BF005D7E12 /* StudentMangementApp.swift in Sources */,
