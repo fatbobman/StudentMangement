@@ -72,8 +72,14 @@ struct StudentManager: View {
                     }
                     else {
                     Button("确定"){
+                        if action == .new {
                         presentationMode.wrappedValue.dismiss()
                         store.newStudent(viewModel: myState)
+                        }
+                        if action == .edit{
+                            presentationMode.wrappedValue.dismiss()
+                            store.editStudent(viewModel: myState, student: student!)
+                        }
                     }
                     .disabled(!confirm)
                     }
